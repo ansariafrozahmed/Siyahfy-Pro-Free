@@ -25,10 +25,10 @@ const BlogSection: React.FC = () => {
   return (
     <div className="templateContainer py-4 md:py-8 lg:py-12">
       <div className="flex flex-col gap-1 items-center justify-center pt-0 pb-10">
-        <span className="flex items-center gap-1 uppercase text-sm text-templateText tracking-wider">
+        <span className="flex items-center gap-1 text-sm text-templateText tracking-wider">
           Blogs
         </span>
-        <h2 className="sectionHeading">NEWS & ARTICLES</h2>
+        <h2 className="sectionHeading">News & Articles</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {blogs?.map((item, i) => (
